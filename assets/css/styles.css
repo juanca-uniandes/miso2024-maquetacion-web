@@ -1,0 +1,153 @@
+body {
+    background-color: #F5F5F5; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_1 {
+    font-size: 28px !important;
+}
+
+.text_2 {
+    font-size: 20px;
+}
+
+.text_3 {
+    font-size: 18px;
+}
+
+.text_4 {
+    font-size: 16px;
+    color: black;
+}
+
+input.form-control {
+    background-color: #B4E6F8;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    height: 56px !important;
+    margin-top: 10% !important;
+}
+
+input.form-control::placeholder {
+    color: #0F80A9;
+}
+
+button.btn-primary {
+    background-color: #B4E6F8;
+    border: none;
+    padding: 10px;
+    color: black;
+    width: 180px !important;
+    height: 56px;
+    margin-top: 10% !important;
+}
+
+button.btn-primary:hover {
+    background-color: #0F80A9;
+}
+
+button.btn-primary:active {
+    background-color: #0F80A9;
+}
+
+a.btn-primary {
+    background-color: #B4E6F8;
+    border: none;
+    padding: 10px;
+    color: black;
+    width: 180px !important;
+    height: 56px;
+    margin-top: 5% !important;
+    
+    /* Para centrar el texto verticalmente */
+    display: inline-block;  /* Se mantiene inline para no afectar el layout */
+    line-height: 36px;  /* Ajusta esto para centrar el texto verticalmente */
+    text-align: center;  /* Asegura el centrado horizontal del texto */
+    vertical-align: middle;  /* Asegura el centrado vertical */
+}
+
+a.btn-primary:hover {
+    background-color: #0F80A9;
+}
+
+a.btn-primary:active {
+    background-color: #0C6C8A;
+}
+
+a.text-secondary {
+    color: #666666;
+}
+
+a.text-secondary:hover {
+    color: #8C8C8C;
+}
+
+.first_space {
+    margin-top: 10% !important;
+}
+
+.last_space {
+    margin-top: 20% !important;
+}
+
+/* Ajustes de la barra de navegación */
+.navbar {
+    background-color: #B4E6F8 !important;
+    height: 58px;
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    padding: 0 20px; /* Agrega un poco de espacio a los lados */
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center; /* Asegura que el icono esté centrado */
+}
+
+.navbar .navbar-brand img {
+    margin-right: 15px; /* Espacio entre el icono y los botones */
+}
+
+.navbar .btn {
+    background-color: #129CCE !important;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 2px;
+    border: none;
+    height: 56px; /* Altura fija para los botones */
+    display: flex; /* Aplica flexbox al botón */
+    align-items: center; /* Alinea el contenido verticalmente en el centro */
+    justify-content: center; /* Alinea el contenido horizontalmente en el centro */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.navbar .btn:hover {
+    background-color: #0C6C8A;
+}
+
+img.img-fluid {
+    width: 998px;
+    height: 400px;
+    object-fit: cover;
+}
+
+img.gallery-img {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+}
+
+img.main-img{
+    width: 1000px;
+    height: 666px;
+    object-fit:cover;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.row img {
+    margin-bottom: 15px;
+}
