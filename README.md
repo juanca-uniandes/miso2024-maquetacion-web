@@ -11,3 +11,6 @@ Este proyecto está desarrollado utilizando **HTML**, **Bootstrap 5** y **CSS**.
 3. Haz clic derecho en el archivo `index.html`.
 4. Selecciona la opción **Open with Live Server**.
 5. El proyecto se abrirá automáticamente en tu navegador predeterminado.
+
+## Video demostrando el funcionamiento de app web
+https://youtu.be/wd5F9hZXPT0
